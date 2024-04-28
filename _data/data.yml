@@ -41,17 +41,15 @@ sidebar:
         - idiom: Persian
           level: Native
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+    # interests:
+    #   title: Interests
+    #   info:
 
-        - item: Snowboarding
-          link:
+    #     - item: Chess
+    #       link:
 
-        - item: Cooking
-          link:
+    #     - item: 
+    #       link:
 
 career-profile:
     title: Career Profile
@@ -65,9 +63,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Ph.D. in Mechanical Engineering
+        university: Santa Clara University
+        time: 09/2018 - 03/2024
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -76,9 +74,20 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: M.Sc. in Mechanical Engineering
+        university: Santa Clara University
+        time: 03/2016 - 09/2018
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - degree: BSc in Materials Engineering
+        university: Sharif University of Technology
+        time: 09/2010 - 09/2015
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
