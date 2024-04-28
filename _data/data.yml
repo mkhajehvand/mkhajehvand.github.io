@@ -54,12 +54,17 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I hold a Ph.D. in Mechanical Engineering and have a comprehensive understanding 
+      of materials science, statistical mechanics, mechanics of materials, 
+      semiconductor physics, and advanced packaging and interconnects (especially 
+      wire bonding and flip-chip bonding). My experience includes extensive 
+      computational modeling, particularly focusing on solid-state bonding and 
+      plastic deformation in metals via LAMMPS molecular dynamics simulations. 
+      Additionally, I am proficient in visualizing and interpreting data from 
+      atomistic simulations using OVITO and Python. Alongside my computational 
+      skills, I possess a wide range of experimental expertise, including SEM/EDX, 
+      optical microscopy and profilometry, tensile testing, micro/nano-indentation, 
+      and ultrasonic wire bonding.
 education:
     title: Education
     info:
