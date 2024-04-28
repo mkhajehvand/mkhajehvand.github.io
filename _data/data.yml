@@ -14,15 +14,16 @@ sidebar:
 
     # Sidebar links
     email: khajehvand.milad@gmail.com
+    orcid: ORCID
+    google-scholar: Google Scholar
+    linkedin: Linkedin
+    github: GitHub
+    # pdf: http://www.africau.edu/images/default/sample.pdf
     # phone: 012 345 6789
     # timezone: Pacific Time Zone
     # citizenship:
     # website: blog.webjeda.com #do not add http://
-    orcid: ORCID
-    google-scholar: Google Scholar
-    linkedin: Linkedin
     # xing: alandoe
-    github: GitHub
     # telegram: # add your nickname without '@' sign
     # gitlab:
     # bitbucket:
@@ -30,7 +31,6 @@ sidebar:
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
