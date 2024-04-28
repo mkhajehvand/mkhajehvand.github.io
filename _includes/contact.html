@@ -21,7 +21,7 @@
 
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="">{{ sidebar.timezone }}</a>
+      <a>{{ sidebar.timezone }}</a>
     </li>
     {% endif %}
 
@@ -94,6 +94,12 @@
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
       <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.orcid %}
+    <li class="orcid"><i class="fab fa-orcid"></i>
+      <a href="https://orcid.org/{{ sidebar.orcid }}" target="_blank">{{ sidebar.orcid }}</a>
     </li>
     {% endif %}
 
