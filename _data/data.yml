@@ -17,7 +17,7 @@ sidebar:
     # phone: 012 345 6789
     timezone: Pacific Time Zone
     # citizenship:
-    website: blog.webjeda.com #do not add http://
+    # website: blog.webjeda.com #do not add http://
     linkedin: miladkhajehvand
     # xing: alandoe
     github: mkhajehvand
@@ -33,14 +33,12 @@ sidebar:
     languages:
       title: Languages
       info:
+
         - idiom: English
+          level: Professional
+
+        - idiom: Persian
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
 
     interests:
       title: Interests
