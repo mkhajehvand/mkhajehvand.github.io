@@ -32,7 +32,19 @@ body {
 }
 
 .profile {
+  display: flex;
+  align-items: center;
+  gap: 24px;
   margin-bottom: 36px;
+}
+
+.profile-photo {
+  width: 128px;
+  height: 128px;
+  flex: 0 0 128px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  border-radius: 50%;
 }
 
 h1 {
@@ -120,5 +132,16 @@ section > p {
 
   section {
     padding: 22px 20px;
+  }
+
+  .profile {
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .profile-photo {
+    width: 96px;
+    height: 96px;
+    flex-basis: 96px;
   }
 }
