@@ -26,9 +26,9 @@ body {
 }
 
 .site {
-  width: min(760px, calc(100% - 32px));
+  width: min(960px, calc(100% - 24px));
   margin: 0 auto;
-  padding: 64px 0;
+  padding: 44px 0;
 }
 
 .profile {
@@ -92,6 +92,11 @@ section > p {
 
 .publications li {
   padding-left: 0.35rem;
+  margin-bottom: 1.35rem;
+}
+
+.publications li:last-child {
+  margin-bottom: 0;
 }
 
 .publications p {
@@ -109,7 +114,7 @@ section > p {
 
 @media (max-width: 600px) {
   .site {
-    width: min(100% - 24px, 760px);
+    width: calc(100% - 16px);
     padding: 38px 0;
   }
 
