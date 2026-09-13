@@ -114,6 +114,17 @@ h1 {
   gap: 6px 18px;
 }
 
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+}
+
+.links i {
+  width: 1em;
+  text-align: center;
+}
+
 a {
   color: var(--link);
   text-decoration: none;
