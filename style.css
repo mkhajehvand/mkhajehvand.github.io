@@ -16,6 +16,42 @@
   --link-hover: #155fae;
 }
 
+.pattern-background {
+position: relative;
+overflow: hidden;
+background-color: #ffffff;
+mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 100%);
+-webkit-mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 100%);
+mask-size: 100% 100%;
+-webkit-mask-size: 100% 100%;
+mask-repeat: no-repeat;
+-webkit-mask-repeat: no-repeat;
+}
+
+.pattern-background::before {
+content: "";
+position: absolute;
+inset: -100%;
+transform: rotate(175deg);
+transform-origin: center;
+background-color: #ffffff;
+opacity: 1;
+background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 15px 15px, linear-gradient(#2088ff 1.2000000000000002px, transparent 1.2000000000000002px) 0 -0.6000000000000001px, linear-gradient(90deg, #2088ff 1.2000000000000002px, #ffffff 1.2000000000000002px) -0.6000000000000001px 0;
+background-size: 30px 30px, 30px 30px, 15px 15px, 15px 15px;
+}
+
+.pattern-background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.site {
+  position: relative;
+  z-index: 1;
+}
+
 * {
   box-sizing: border-box;
 }
