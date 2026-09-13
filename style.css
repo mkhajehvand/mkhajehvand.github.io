@@ -75,7 +75,7 @@ body {
 .site {
   width: min(960px, calc(100% - 24px));
   margin: 0 auto;
-  padding: 44px 0;
+  padding: 44px 0 0;
 }
 
 .profile {
@@ -182,10 +182,19 @@ section > p {
   margin-top: 3px !important;
 }
 
+footer {
+  text-align: center;
+  padding: 12px 20px 20px;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #eaeaea;
+  margin-top: 16px;
+}
+
 @media (max-width: 600px) {
   .site {
     width: calc(100% - 16px);
-    padding: 38px 0;
+    padding: 38px 0 0;
   }
 
   section {

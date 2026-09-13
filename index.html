@@ -89,5 +89,12 @@
       </ol>
     </section>
   </main>
+  <footer>
+    <p>Last Updated: <span id="last-updated"></span></p>
+  </footer>
+  <script>
+    const modDate = new Date(document.lastModified);
+    document.getElementById('last-updated').textContent = modDate.toLocaleDateString();
+  </script>
 </body>
 </html>
